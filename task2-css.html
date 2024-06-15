@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .nav-container {
+            display: flex;
+            align-items: flex-start;
+        }
+        .vertical-nav {
+            width: 200px;
+            background-color: lightblue;
+            margin-right: 100px;
+        }
+
+        .vertical-nav a {
+            display: block;
+            color: blue;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .vertical-nav a.active {
+            background-color: orange;
+            color: white;
+        }
+
+        .horizontal-nav {
+            overflow: hidden;
+            background-color: grey;
+        }
+
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .horizontal-nav a.active {
+            background-color: darkgrey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+<div class="nav-container">
+
+<div class="vertical-nav">
+    <a class="active" href="#home">Home</a>
+    <a href="#java">Java</a>
+    <a href="#css">CSS</a>
+    <a href="#html">HTML</a>
+    <a href="#bootstrap">Bootstrap</a>
+</div>
+<div>
+<h2 >Horizontal Navigation Bar</h2>
+ 
+<div class="horizontal-nav ">
+    <a class="active" href="#home">Home</a>
+    <a href="#java">Java</a>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+</div>
+</div>
+</div>
+</body>
+</html>
